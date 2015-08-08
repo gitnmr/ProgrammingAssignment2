@@ -1,7 +1,6 @@
 ## cachematrix contains functions to compute, store and retrieve the inverse of a square matrix from mem cache. 
 
-## makeCacheMatrix takes as input a square matrix and returns a list of function objects that can be passed to cacheSolve 
-## to perform caching or retrieval of the matrix inverse
+## makeCacheMatrix takes as input a square matrix and returns a list of function objects that can be passed to cacheSolve to perform caching or retrieval of the matrix inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
